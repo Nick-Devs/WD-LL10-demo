@@ -16,6 +16,10 @@ function showWinnerMessage(winner) {
 }
 
 /* Task 3 - Create your pickWinner below according to the TODO */
+function pickWinner() {
+  const randomIndex = Math.floor(Math.random() * users.length);
+  return users[randomIndex];
+}
 
 /* Task 4 - Complete the function according to the TODO */
 function showRandomEmoji() {}
