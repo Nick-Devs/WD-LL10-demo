@@ -10,6 +10,10 @@ function addComment(username, comment, addToStart) {
 }
 
 /* Task 2 - Create your showWinnerMessage below according to the TODO */
+function showWinnerMessage(winner) {
+  document.getElementById('winner-display');
+  winnerDisplay.innerHTML = `Congratulations ${winner}, you are the winner!`;
+}
 
 /* Task 3 - Create your pickWinner below according to the TODO */
 
